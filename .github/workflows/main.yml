@@ -8,7 +8,7 @@ jobs:
     container: devkitpro/devkita64:latest
     steps:
     - name: Checkout master branch
-      run: git clone --recursive https://github.com/tiansongyu/incognito_ch.git $GITHUB_WORKSPACE
+      run: git clone --recursive https://github.com/tiansongyu/Switch-incognito.git $GITHUB_WORKSPACE
 
     - name: make all
       run: |
@@ -17,4 +17,4 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: Build
-        path: $GITHUB_WORKSPACE/out/incognito_zh.nro
+        path: /out/Switch-incognito.nro
