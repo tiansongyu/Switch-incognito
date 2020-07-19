@@ -13,8 +13,8 @@ jobs:
     - name: make all
       run: |
         cd $GITHUB_WORKSPACE
-        make
+        make -j$(nproc)
     - uses: actions/upload-artifact@master
       with:
         name: Build
-        path: /out/Switch-incognito.nro
+        path: out/Switch-incognito.nro
