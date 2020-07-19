@@ -13,8 +13,13 @@ jobs:
     - name: make all
       run: |
         cd $GITHUB_WORKSPACE
-        make -j$(nproc)
+        echo howdy > extra-file_helloworld.txt
+        make -j$(nproc) > extra-file.txt
     - uses: actions/upload-artifact@master
       with:
         name: Build
         path: out/Switch-incognito.nro
+    - uses: actions/upload-artifact@master
+      with:
+        name: result
+        path: extra-file.txt
