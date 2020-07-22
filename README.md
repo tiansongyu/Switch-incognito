@@ -1,4 +1,4 @@
-
+![CI](https://github.com/tiansongyu/Switch-incognito/workflows/CI/badge.svg)
 ### Hi there 👋 (this is a WIP)
 
 ![tiansongyu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=tiansongyu&show_icons=true)
@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 # incognito
-<p align="center"><img src="https://www.91wii.com/forum.php?mod=attachment&aid=MTc3ODIxfDlkNzRkM2U4fDE1OTUzMjE1NzF8MjYyNDcwN3wxOTY3MDM%3D&noupdate=yes" </p>
+![image](https://github.com/tiansongyu/Switch-incognito/blob/master/res/display.jpg)
 Wipes some personal information from your Nintendo Switch by removing it from PRODINFO (CAL0).
 
 NOTE: Atmosphere blocks writes to PRODINFO, so you must use ReiNX, SX OS, or a custom KIP to install this. Once installed, you can switch back to Atmosphere.
