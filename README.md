@@ -16,6 +16,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+<div>
+  <span>English</span> / <a href=".github/README-jp.md">日本語</a> / <a href=".github/README-zh-CN.md">简体中文</a> / <a href=".github/README-es.md">Español</a> / <a href=".github/README-it.md">Italiano</a>
+</div>
+
 # incognito
 ![image](https://github.com/tiansongyu/Switch-incognito/blob/master/res/display.jpg)
 Wipes some personal information from your Nintendo Switch by removing it from PRODINFO (CAL0).
