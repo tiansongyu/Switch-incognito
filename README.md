@@ -38,5 +38,5 @@ b) It prevents malicious homebrew applications from stealing your personal certi
 
 * This application backs up your PRODINFO to the SD card, as `backup/PRODINFO.bin` You should keep this backup in a more secure location, and not leave it on the SD card where it could be subject to corruption or be read by malicious applications.  
 
-你好  
+你好 
 我
