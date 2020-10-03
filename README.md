@@ -36,4 +36,7 @@ b) It prevents malicious homebrew applications from stealing your personal certi
 
 * ALWAYS have a NAND backup. I am not responsible for any bricks or bans. Use at your own risk, as this is an experimental program.
 
-* This application backs up your PRODINFO to the SD card, as `backup/PRODINFO.bin` You should keep this backup in a more secure location, and not leave it on the SD card where it could be subject to corruption or be read by malicious applications.
+* This application backs up your PRODINFO to the SD card, as `backup/PRODINFO.bin` You should keep this backup in a more secure location, and not leave it on the SD card where it could be subject to corruption or be read by malicious applications.  
+
+你好  
+我
