@@ -34,6 +34,8 @@ public:
 		if (fsStorageRead(&m_sh, offset, &buffer, sizeof(T)))
 		{
 			printf("error: failed reading %ld bytes @ %lx\n", (long)sizeof(T), (long)offset);
+			printf("helloworld\n");
+			
 		}
 
 		return buffer;

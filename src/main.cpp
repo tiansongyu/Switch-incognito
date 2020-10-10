@@ -66,7 +66,8 @@ int main(int argc, char **argv)
         j = json::parse(in);
         auto color_theme = j["current_theme"];
         //gui绘制
-        printf("Starting gui\n");
+        printf("Starting gui\n"); 
+        
         if (!gui::init())
                 printf("Failed to init\n");
         ///这里可以选择黑暗和光亮的主题
