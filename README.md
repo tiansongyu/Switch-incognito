@@ -1,41 +1,20 @@
 ![CI](https://github.com/tiansongyu/Switch-incognito/workflows/CI/badge.svg)
-### Hi there 👋 (this is a WIP)
-
-![tiansongyu's GitHub Stats](https://github-readme-stats.vercel.app/api?username=tiansongyu&show_icons=true)
-<!--
-**tiansongyu/tiansongyu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 <div>
-  <span>English</span> / <a href=".github/README-jp.md">日本語</a> / <a href=".github/README-zh-CN.md">简体中文</a> / <a href=".github/README-es.md">Español</a> / <a href=".github/README-it.md">Italiano</a>
+  <span>简体中文</span> /<a href=".github/README-English.md">English</a>
 </div>
 
 # incognito
 ![image](https://github.com/tiansongyu/Switch-incognito/blob/master/res/display.jpg)
-Wipes some personal information from your Nintendo Switch by removing it from PRODINFO (CAL0).
+从PRODINFO (CAL0)删除你的任天堂swtich的联网信息。
+注意:Atmosphere块写入PRODINFO，所以您必须使用ReiNX、SX OS或自定义的KIP来安装它。一旦安装，你可以切换回大气层系统。
 
-NOTE: Atmosphere blocks writes to PRODINFO, so you must use ReiNX, SX OS, or a custom KIP to install this. Once installed, you can switch back to Atmosphere.
+## 目的
+- a)它使你能够上网，而不用担心被Ban。
+- b)防止恶意的自制程序窃取你的个人证书。
 
-## Purpose
-a) It enables your switch to go online while worrying slightly less about a ban.
-b) It prevents malicious homebrew applications from stealing your personal certificate.
+## 免责声明
+* 此应用程序不会删除您的Switch上的所有个人信息，也不应该被视为防止被禁止的真正预防措施。
+始终要有一个NAND备份。我不负责任何被Ban的后果。使用风险自负，因为这是一个实验项目。
 
-## Disclaimers
-* This application does not remove all personal information from your Switch, and should not be treated as a true preventative measure against getting banned.
-
-* ALWAYS have a NAND backup. I am not responsible for any bricks or bans. Use at your own risk, as this is an experimental program.
-
-* This application backs up your PRODINFO to the SD card, as `backup/PRODINFO.bin` You should keep this backup in a more secure location, and not leave it on the SD card where it could be subject to corruption or be read by malicious applications.  
-
+* 这个应用程序将你的PRODINFO备份到SD卡上，作为backup/PRODINFO。你应该把这个备份放在一个更安全的位置，不要把它留在SD卡上，因为它可能会被损坏或被恶意应用程序读取。
 
