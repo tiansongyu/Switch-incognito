@@ -8,7 +8,7 @@
 删除任天堂swtich的联网序列号
 注意:Atmosphere系统需要写入PRODINFO，所以您必须使用ReiNX、SX OS或自定义的KIP来安装它，安装后，需要切换回大气层系统。
 
-# Compiling
+# 编译
 Building needs a working devkitA64 environment, with packages `libnx`,`deko3d` and `switch-glm` installed (`sudo (dkp-)pacman -S switch-dev`).
 ```
 $ git clone --recursive https://github.com/tiansongyu/Switch-incognito.git
