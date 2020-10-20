@@ -4,10 +4,19 @@ Wipes some personal information from your Nintendo Switch by removing it from PR
 
 NOTE: Atmosphere blocks writes to PRODINFO, so you must use ReiNX, SX OS, or a custom KIP to install this. Once installed, you can switch back to Atmosphere.
 
-## Purpose
-a) It enables your switch to go online while worrying slightly less about a ban.
-b) It prevents malicious homebrew applications from stealing your personal certificate.
+# Compiling
+Building needs a working devkitA64 environment, with packages `libnx`,`deko3d` and `switch-glm` installed (`sudo (dkp-)pacman -S switch-dev`).
+```
+$ git clone --recursive https://github.com/tiansongyu/Switch-incognito.git
+$ cd Switch-incognito
+$ make -j$(nproc)
+```
+Output will be located in /.
 
+## Purpose
+- a) It enables your switch to go online while worrying slightly less about a ban.
+- b) It prevents malicious homebrew applications from stealing your personal certificate.
+- c) multi-language support
 ## Disclaimers
 * This application does not remove all personal information from your Switch, and should not be treated as a true preventative measure against getting banned.
 
